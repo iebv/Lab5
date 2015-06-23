@@ -17,7 +17,7 @@ public class MyContacts extends Application {
     public Contact serachContactByName(String name){
         Contact mycontact = null;
         for(Contact contact: myContacts){
-            if(contact.getName()==neame){
+            if(contact.getName()==name){
                 mycontact = contact;
                 break;
             }
