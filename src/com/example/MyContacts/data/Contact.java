@@ -17,20 +17,12 @@ public class Contact {
         this.phone = phone;
     }
 
-    public Long getPhone() {
-        return phone;
+    public String getName() {
+        return name;
     }
 
-    public void setPhone(Long phone) {
-        this.phone = phone;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getEmail() {
@@ -41,11 +33,19 @@ public class Contact {
         this.email = email;
     }
 
-    public String getName() {
-        return name;
+    public String getAddress() {
+        return address;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public Long getPhone() {
+        return phone;
+    }
+
+    public void setPhone(Long phone) {
+        this.phone = phone;
     }
 }

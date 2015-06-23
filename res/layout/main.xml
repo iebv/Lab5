@@ -4,10 +4,27 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello World, HelloWorld"
-            />
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/welcome_label"
+                android:id="@+id/textView" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+                android:layout_marginTop="43dp"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addContact_button"
+                android:id="@+id/button" android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selectContact_button"
+                android:id="@+id/button2"
+                android:layout_below="@+id/button" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
 </LinearLayout>
 
