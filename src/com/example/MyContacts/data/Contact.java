@@ -10,11 +10,12 @@ public class Contact {
     private String address;
     private Long phone;
 
-    public Contact(String name, String email, String address, Long phone) {
+    public Contact(String name, String email, Long phone, String address) {
         this.name = name;
         this.email = email;
-        this.address = address;
         this.phone = phone;
+        this.address = address;
+
     }
 
     public String getName() {

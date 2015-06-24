@@ -14,7 +14,7 @@ public class MyContacts extends Application {
         myContacts = new ArrayList<Contact>();
     }
 
-    public Contact serachContactByName(String name){
+    public Contact searchContactByName(String name){
         Contact mycontact = null;
         for(Contact contact: myContacts){
             if(contact.getName()==name){
